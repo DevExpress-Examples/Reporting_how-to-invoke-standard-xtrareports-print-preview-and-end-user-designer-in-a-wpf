@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfXtraReports.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="223" Width="295" ResizeMode="NoResize">
+    <Grid>
+        <Button Height="35" Margin="69,39,76,0" Name="button1" 
+                VerticalAlignment="Top" Click="button1_Click">
+            Print Preview
+        </Button>
+        <Button Height="35" Margin="69,0,76,46" Name="button2" 
+                VerticalAlignment="Bottom" Click="button2_Click">
+            End-User Designer
+        </Button>
+    </Grid>
+</Window>
