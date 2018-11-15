@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/WpfXtraReports/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfXtraReports/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfXtraReports/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfXtraReports/MainWindow.xaml))
+<!-- default file list end -->
 # How to invoke standard XtraReports Print Preview and End-User Designer in a WPF application
 
 
