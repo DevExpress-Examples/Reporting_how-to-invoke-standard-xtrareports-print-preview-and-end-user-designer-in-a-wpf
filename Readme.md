@@ -6,7 +6,9 @@
 <!-- default file list end -->
 # How to invoke standard XtraReports Print Preview and End-User Designer in a WPF application
 
+# In WPF applications, use our [Document Preview](https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.DocumentPreviewControl) and the [End-User Report Designer](https://docs.devexpress.com/XtraReports/114104/create-end-user-reporting-applications/wpf-reporting/end-user-report-designer). See [WPF Reporting](https://docs.devexpress.com/XtraReports/9830/create-end-user-reporting-applications/wpf-reporting) for more information.
 
+[Original message]
 <p>The following example demonstrates how to preview and edit reports, created by the XtraReports suite, in a WPF application.<br /><br /><strong>Important note: </strong>the use of this example requires the WinForms part of our Reporting tools that is not included into WPF subscription. If you wish to use this functionality, it is required to own WinForms, Reporting, DXperience, or Universal subscription.</p>
 
 
