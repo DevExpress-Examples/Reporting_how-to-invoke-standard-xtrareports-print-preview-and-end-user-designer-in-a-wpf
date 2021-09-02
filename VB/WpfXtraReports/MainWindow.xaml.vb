@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Windows
 Imports System.Windows.Threading
 Imports DevExpress.XtraReports.UI
@@ -11,6 +10,7 @@ Namespace WpfXtraReports
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		' Create a report instance.
 		Private ReadOnly report As New XtraReport1()
 
@@ -23,8 +23,7 @@ Namespace WpfXtraReports
 			InvokeOnIdle()
 		End Sub
 		Private Shared Sub InvokeOnIdle()
-            Dispatcher.CurrentDispatcher.BeginInvoke(New Action(AddressOf OnIdle), _
-                                                     DispatcherPriority.ApplicationIdle)
+			Dispatcher.CurrentDispatcher.BeginInvoke(New Action(AddressOf OnIdle), DispatcherPriority.ApplicationIdle)
 		End Sub
 		Private Shared Sub OnIdle()
 			InvokeOnIdle()
