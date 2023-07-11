@@ -5,8 +5,8 @@
 <!-- default badges end -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/WpfXtraReports/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfXtraReports/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/WpfXtraReports/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfXtraReports/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to invoke the standard WinForms Print Preview and End-User Designer in a WPF application
 
